@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- css -->
+  <link rel="stylesheet" type="text/css" href="resume.css">
+  <link rel="stylesheet" href="circle.css">
+  <link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+
+
+</head>
+
+
+<body>
+
+  <div class="background">
+    <p> &nbsp; </p>
+  <img class="img-circle" src="/home/johnsoh/Desktop/others/John_Soh.jpg">
+
+  <p> &nbsp;</p>
+
+  <div class="profession_info">
+    <h2> John Soh Xiang Rhong </h2>
+    <h3> University of Minnesota, Twin Citites </h3>
+
+    <div class="inside_proinfo">
+      <ul>
+        <li> Software Engineer</li>
+        <li> Full Stack Web Developer</li>
+      </ul>
+  </div>
+
+ <!-- More on me button -->
+ <div class="click-me">
+  <a href="#demo" class="btn btn-info" data-toggle="collapse">More about me</a>
+  <div id="demo" class="collapse" style="color:white;">
+    I am a Junior majoring in Computer Science at the University of Minnesota Twin Cities.
+    My interest is in Software Development and Human Computer Interaction (HCI).
+    I was hooked to programming the first time i was introduced to it and it is the reason
+    why i am enrolled in a Computer Science program.
+    My hobby is to travel to new places and explore different landmarks and admire Different
+    scenaries all across the world.
+  </div>
+</div>
+
+  </div>
+</div>
+
+  <p> &nbsp;</p>
+
+  <!-- <div class="personal_profile">
+    <p> &nbsp;</p>
+    <h3 class="heading_style" data-toggle="collapse" data-target="#personal_profile"> Personal Profile </h3>
+      <div id="personal_profile" class="collapse" >
+        Phone : (612)-707-5058 <br>
+        Email : sohxx016@umn.edu
+      </div>
+
+  </div> -->
+
+  <!-- begin accordion -->
+  <!-- logic obtained by : http://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+
+  <div class="panel-group" id="accordion">
+
+    <div class="panel panel-default">
+      <div class="panel-heading blue">
+        <h4 class="panel-title" >
+          <a data-toggle="collapse" data-parent="#accordion" href="#personal_profile" >
+            Personal profile
+          </a>
+        </h4>
+      </div>
+
+      <div id="personal_profile" class="panel-collapse collapse in">
+        <div class="panel-body">
+          Phone : (612)-707-5058 <br>
+          Email : sohxx016@umn.edu
+        </div>
+      </div>
+    </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading blue1">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#work_experience">
+            Work Experience
+          </a>
+        </h4>
+      </div>
+
+      <div id="work_experience" class="panel-collapse collapse">
+        <div class="panel-body">
+          work experience..
+        </div>
+      </div>
+    </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading blue2">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#Skills">
+            Skills
+          </a>
+        </h4>
+      </div>
+
+      <div id="Skills" class="panel-collapse collapse">
+        <div class="panel-body">
+          <div class="technical_skills" >
+            <p> &nbsp;</p>
+            <h4 class="heading_style"> Technical Skills </h4>
+            <p> &nbsp; </p>
+
+
+            <div class="python">
+              <p>Python: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                70%
+                </div>
+              </div>
+            </div>
+
+            <div class="C">
+              <p>C: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                60%
+                </div>
+              </div>
+            </div>
+
+            <div class="C++">
+              <p>C++: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                60%
+                </div>
+              </div>
+            </div>
+
+            <div class="Java">
+              <p>Java: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                50%
+                </div>
+              </div>
+            </div>
+
+            <div class="Javascript">
+              <p>Javascript: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                60%
+                </div>
+              </div>
+            </div>
+
+            <div class="HTML">
+              <p>HTML: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                70%
+                </div>
+              </div>
+            </div>
+
+
+            <div class="CSS">
+              <p>CSS: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                70%
+                </div>
+              </div>
+            </div>
+
+            <div class="PostgreSQL">
+              <p>PostgreSQL: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                60%
+                </div>
+              </div>
+            </div>
+
+            <div class="Oracle SQL">
+              <p>Oracle SQL: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                70%
+                </div>
+              </div>
+            </div>
+
+            <div class="Clojure">
+              <p>Clojure: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                60%
+                </div>
+              </div>
+            </div>
+
+            <div class="Arduino">
+              <p>Arduino: </p>
+              <div class="progress" style="width:50%">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                40%
+                </div>
+              </div>
+            </div>
+
+            <p> &nbsp; </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading blue3">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#Projects">
+            Projects
+          </a>
+        </h4>
+      </div>
+
+      <div id="Projects" class="panel-collapse collapse">
+        <div class="panel-body">
+          Projects..
+        </div>
+      </div>
+    </div>
+
+
+    <div class="panel panel-default">
+      <div class="panel-heading blue4">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#Leadership">
+            Leadership
+          </a>
+        </h4>
+      </div>
+
+      <div id="Leadership" class="panel-collapse collapse">
+        <div class="panel-body">
+          Leadership..
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- end accordion -->
+
+
+
+
+
+
+
+</body>
+
+</html>
