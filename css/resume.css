@@ -7,11 +7,11 @@
 }
 
 body{
-  background-image: url("body_background.jpg")
+  background-image: url("/home/johnsoh/jonajourney.github.io/images/body_background.jpg")
 }
 
 .background{
-  background-image: url("cover_img.jpg");
+  background-image: url("/home/johnsoh/jonajourney.github.io/images/cover_img.jpg");
   border-bottom: 5px solid;
 }
 
