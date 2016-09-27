@@ -93,3 +93,7 @@ body{
 .panel-heading.blue4{
   background-color: #4f5bea;
 }
+
+.fa:hover{
+  color:rgb(0,0,100);
+}
