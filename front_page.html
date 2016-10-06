@@ -4,12 +4,14 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>John Soh </title>
-
   <link rel="stylesheet" type="text/css" href="css/front-page.css">
-
+  <link rel="stylesheet" tpye="text/css" href="css/animate.css">
+  <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
   <script src="js/jquery.min.js"> </script>
+  <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"> </script>
   <script src="typed.js-master/js/typed.js"> </script>
+
+  <title>John Soh </title>
 
   <script>
   $(function(){
@@ -18,15 +20,23 @@
         typeSpeed: 80,
       });
   });
+
+
 </script>
 
 </head>
 
-<body>
+<body onload="delay()">
 
 
-  <div class="element"> <span class="typed-cursor">|</span> </div>
-  <img class="img-circle" src="images/John_Soh.jpg">
+  <div class="make_border">
+    <div class="element"> <span class="typed-cursor">|</span> </div>
+  </div>
+
+  <div class="animated fadeInUp" id="img_btn" onClick="location.href='index.html'" style="visibility:hidden;" >
+    <img class="img" src="images/John_Soh.jpg">
+    <button type="button" class="btn btn-outline-success"> Proceed to My site</button>
+  </div>
 
 
   <!-- <div class="background">
@@ -39,6 +49,16 @@
     <p>Hello</p>
   </div> -->
 
+<script>
+  function delay(){
+    console.log("in delay function");
+    setTimeout(function(){
+      document.getElementById('img_btn').style.visibility="visible";}, 4000);
+    setTimeout(function(){
+      document.getElementById('img_btn').setAttribute("class", "animated fadeInUp");}, 4500);
+    }
+
+</script>
 
 
 </body>

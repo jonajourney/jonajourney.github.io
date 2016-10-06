@@ -39,23 +39,21 @@ body{
       rgba(0, 0, 0, 0.45)
     ),url('../images/cool-background.jpg');
   background-color: rgb(0,0,0);
-  opacity: 0.4;
+  /*opacity: 0.4;*/
 }
 
 
 .welcome{
   font-size: 500%;
   color:white;
-
-
 }
 
 .element{
   font-size: 500%;
   color:white;
 
-  width: 50%;
-  height: 40%;
+  width: 1000px;;
+  height: 800px;;
 
   position: absolute;
   top:0;
@@ -66,9 +64,34 @@ body{
   margin: auto;
 }
 
+.make_border{
+  display: block;
+  padding:250px;
+  /*background-color: white;*/
+}
+
+#img_btn{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.img{
+  border-radius: 50%;
+  padding-right: 10px;
+  /*width:350px;
+  height:210px;*/
+}
+
 .typed-cursor{
   animation:blink 1s infinite;
 }
+
+.btn{
+  margin-top :200px;
+}
+
 
 @keyframes blink{
   to{opacity: .0;}
