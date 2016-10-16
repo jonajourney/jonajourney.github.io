@@ -109,3 +109,14 @@ body{
   font-weight: bold;
   font-style :italic;
 }
+
+.one_page_resume{
+  text-decoration: underline;
+  font-weight : bold;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.one_page_resume a{
+  color : black;
+}
