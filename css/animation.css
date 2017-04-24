@@ -148,9 +148,9 @@
 }
 .second-animation h2 {
    -webkit-transform: translateY(-130px);
-   -moz-transform: translateY(-100px);
-   -o-transform: translateY(-100px);
-   -ms-transform: translateY(-100px);
+   -moz-transform: translateY(-130px);
+   -o-transform: translateY(-130px);
+   -ms-transform: translateY(-130px);
    transform: translateY(-130px);
    -webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
