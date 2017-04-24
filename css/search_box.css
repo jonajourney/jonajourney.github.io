@@ -1,0 +1,49 @@
+.header-input[type=text] {
+    width: 40px;
+    /*box-sizing: border-box;*/
+    /*font-size: 16px;*/
+    border: 2px solid transparent;
+    margin: 14px 0;
+    border-radius: 50px;
+    color: white;
+    font-family: 10px;
+    padding: 0 35px 0 10px;
+    background: url('../images/search-icon.png') no-repeat 50% center;
+    margin: 14px 0;
+    cursor: pointer;
+    background-size: 24px 24px;
+    transition: 0.15s;
+    -webkit-transition: 0.15s;
+
+
+    /*border: 2px solid transparent;
+    margin: 10px 0 14px 0;
+    background-color: rgb(61,72,82);
+    background: url('../images/search-icon.png') no-repeat 50% center;;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 5px 20px 5px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    -webkit-appearance: none;*/
+
+    
+}
+
+.header-input[type=text]:focus {
+    /*width: 200px;
+    background-color: white;*/
+    width:200px;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    color: white;
+    font-family: 10px;
+    padding: 0 35px 0 10px;
+    background-image: none;
+    margin: 14px 0;
+    cursor: pointer;
+    background-size: 24px 24px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+}

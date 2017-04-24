@@ -1,0 +1,140 @@
+/*responsive design */
+@media screen and (min-width: 400px){
+    .image-wrapper{
+        display: inline-block;
+        float:left;
+    }
+    .left-side{
+        width: 100%;
+    }
+
+    .right-side{
+        width: 100%;
+    }
+    .left-image{
+        width: 100%;
+    }
+
+    .right-image{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .image-wrapper{
+        display: inline-block;
+        float:left;
+    }
+    .left-side{
+        width: 100%;
+    }
+
+    .right-side{
+        width: 100%;
+    }
+    .left-image{
+        width: 100%;
+    }
+
+    .right-image{
+        width: 100%;
+    }
+}
+
+/*@media screen and (max-width: 768){
+    .image-wrapper{
+        display: inline-block;
+        float:left;
+    }
+    .left-image{
+        width: 100%;
+    }
+    .right-image{
+        width:100%;
+    }
+
+    .hero-title{
+        width:70%;
+
+    }
+}*/
+
+@media screen and (min-width: 768px){
+    /*.image-wrapper{
+        display: inline-block;
+    }*/
+    .my-container{
+        width:750px;
+    }
+    .left-image{
+        width: 50%;
+    }
+    .right-image{
+        width: 50%;
+    }
+    /*.hero-title{
+        width:70%;
+        transform: translate(0, 40%);
+        
+    }   */
+
+    /*.left-image,.right-image
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}*/
+
+    .image-wrapper{
+        display: inline-block;
+        float:left;
+    }
+
+    .right-side{
+        float:left;
+        width:100%;
+    }
+    
+    .left-side{
+        width:100%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    .my-container{
+        width:1200px;
+    }
+
+    .left-image{
+        width:25%;
+    }
+
+    .right-image{
+        width: 25%;
+    }
+    
+    /*.left-image,.right-image
+{
+	display: inline-block;
+	margin: 0 10px;
+}*/
+
+    .image-wrapper{
+        display:block;
+        float:none;
+    }
+
+    .right-side{
+        float:right;
+        width:50%;
+    }
+
+    .right-side .information{
+        padding-left:5rem;
+    }
+    
+    .left-side{
+        float:left;
+        width:50%;
+    }
+}
