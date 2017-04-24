@@ -121,6 +121,17 @@
     }
 
     /*shifting the divs*/
+    /*.odd .contents{
+        display:table;
+    }
+
+    .odd .information{
+        display:table-footer-group;
+    }
+
+    .odd .image-wrapper{
+        display:table-header-group;
+    }*/
    
     
 }
@@ -167,4 +178,16 @@
         float:left;
         width:50%;
     }
+
+    /*.odd .contents{
+        display:block;
+    }
+
+    .odd .information{
+        display:block;
+    }
+
+    .odd .image-wrapper{
+        display:block;
+    }*/
 }
