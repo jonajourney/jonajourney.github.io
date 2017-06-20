@@ -400,7 +400,7 @@ color:#524e4d;
 }
 section {
 padding:0 0 50px;
-} 
+}
 
 /*begin of experiences*/
 .column,.columns {
@@ -498,6 +498,8 @@ padding-left:0;
 .display img {
    display: block;
    position: relative;
+   max-width: 100%;
+   max-height: 100%;
 }
 
 
@@ -548,4 +550,3 @@ footer a, footer a:hover {
     .project-showcase {
     padding: 80px 0 20px;
     }}
-
