@@ -8,11 +8,12 @@
     <body>
         <a-scene>
             <a-assets>
-                <a-asset-item id="crate-obj" src="./figure.obj"></a-asset-item>
+              <a-asset-item id="crate-obj" src="./hire-me.obj"></a-asset-item>
+              <a-asset-item id="crate-mtl" src="./hire-me.mtl"></a-asset-item>
             </a-assets>
 
             <!-- Using the asset management system. -->
-            <a-obj-model src="#crate-obj" ></a-obj-model>
+            <a-obj-model src="#crate-obj" mtl="#crate-mtl"></a-obj-model>
 
             <!-- Defining the URL inline. Not recommended but may be more comfortable. -->
             <!--<a-obj-model src="models/aztec-temple.obj" mtl="models/aztec-temple.mtl"></a-obj-model>-->
