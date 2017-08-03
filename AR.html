@@ -11,13 +11,20 @@
 	<a-scene embedded arjs='sourceType: webcam;'>
 		<!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
 
-    <a-text value="Hello, World!"></a-text>
+    <!-- <a-text value="Hello, World!"></a-text> -->
 
     <!-- <a-assets>
       <a-asset-item id="hire" src="https://cdn.rawgit.com/jonajourney/jonajourney.github.io/master/hire-me.gltf"></a-asset-item>
     </a-assets> -->
     <!-- use your gltf model -->
-    <a-entity gltf-model="##hire" ></a-entity>
+    <!-- <a-entity gltf-model="##hire" ></a-entity> -->
+
+    <a-entity minecraft minecraft-head-anim='yes' minecraft-body-anim='hiwave'></a-entity>
+
+			<a-text side='double' value="Hire ME!!!" position='-1.3 1.9 0' color='orange'>
+				<!-- <a-animation attribute="position" from="-0.7 1.9 0" to="-0.7 2.3 0" direction="alternate" dur="500"
+					repeat="indefinite" easing='ease-in-out-cubic'></a-animation> -->
+			</a-text>
     <a-marker-camera preset='hiro'></a-marker-camera>
 	</a-scene>
 </body>
